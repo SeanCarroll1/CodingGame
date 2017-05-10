@@ -25,7 +25,8 @@ class Player {
         
         
         // game loop
-        while (true) {
+        while (true)
+        {
             int remainingTurns = in.nextInt();
             String directionY="";
             String directionX="";
