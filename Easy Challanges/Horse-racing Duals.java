@@ -23,6 +23,7 @@ class Solution {
         Arrays.sort(list);
         
         int smallest=Integer.MAX_VALUE;
+        
         for(int i=0; i<N-1; i++)
         {
             
