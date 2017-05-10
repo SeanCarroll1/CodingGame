@@ -8,6 +8,7 @@ import java.math.*;
 class Solution {
 
     public static void main(String args[]) {
+        
         Scanner in = new Scanner(System.in);
         int n = in.nextInt(); // the number of temperatures to analyse
         in.nextLine();
