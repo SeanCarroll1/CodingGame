@@ -33,7 +33,8 @@ class Player {
         {
             directionY="N";
             initialTY--;
-        }else if(initialTY<lightY)
+        }
+             else if(initialTY<lightY)
         {
             initialTY++;
             directionY="S";
@@ -44,7 +45,8 @@ class Player {
             directionX="W";
             initialTX--;
             
-        }else if(initialTX<lightX)
+        }
+            else if(initialTX<lightX)
         {
             directionX="E";
             initialTX++;
