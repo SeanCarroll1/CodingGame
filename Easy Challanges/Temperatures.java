@@ -12,10 +12,12 @@ class Solution {
         int n = in.nextInt(); // the number of temperatures to analyse
         in.nextLine();
         int big=Integer.MAX_VALUE;
+        
         if(n==0)
         {
          big=0;   
         }
+        
         while(n-->0)
         {
             int check=in.nextInt();
